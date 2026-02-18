@@ -150,7 +150,6 @@ const About = () => {
               outputs that stakeholders can actually use.
             </p>
 
-            <p>I’m currently open to remote contract opportunities in data analysis, dashboarding, and reporting automation.</p>
           </div>
 
           
