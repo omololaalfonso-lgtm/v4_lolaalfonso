@@ -135,7 +135,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I’m Lola Alfonso, a data analyst and research scientist with over a decade of 
+              Hello! I’m Omolola, a data analyst and research scientist with over a decade of 
               experience working with research and field data. I specialize in transforming complex 
               datasets into clear insights, interactive dashboards, and reporting workflows that support decision-making.
             </p>
