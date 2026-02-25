@@ -1,6 +1,6 @@
 ---
 title: COVID-19 Cases & Mortality Dashboard (Tableau)
-cover: ./tableau.jpg
+cover: ./tableau.png
 tech: Tableau, Data Visualization, Public Health Analytics
 external: ""
 github: ""
