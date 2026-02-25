@@ -1,6 +1,6 @@
 ---
 title: Sales Performance KPI Dashboard (Excel)
-cover: ./excel.jpg
+cover: ./excel.png
 tech: Microsoft Excel, Pivot Tables, Pivot Charts, KPI Analysis
 external: ""
 github: ""
