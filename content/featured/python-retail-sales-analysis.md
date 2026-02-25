@@ -1,6 +1,6 @@
 ---
 title: Retail Sales Analysis with Seasonal & Marketing Trends
-cover: ./python.jpg
+cover: ./python.png
 tech: Python, Pandas, Data Visualization, Power BI
 external: https://www.kaggle.com/
 github: ""
