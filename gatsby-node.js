@@ -119,16 +119,21 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       slug: String
       date: Date @dateformat
+      draft: Boolean
+
       description: String
       tech: [String]
+
       github: String
       external: String
       ios: String
       android: String
       cta: String
+
       tags: [String]
       cover: File @fileByRelativePath
       image: File @fileByRelativePath
+
       featured: Boolean
       showInProjects: Boolean
       range: String
