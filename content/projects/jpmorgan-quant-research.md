@@ -2,6 +2,8 @@
 title: JPMorgan Chase Quantitative Research Virtual Experience
 tech: Quantitative Research, Dynamic Programming, Risk Modeling
 external: https://www.theforage.com/
+ios: ""
+android: ""
 ---
 
 Completed a quantitative research simulation focused on credit risk modeling.
