@@ -115,12 +115,17 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       slug: String
       date: Date @dateformat
+      description: String
       tech: [String]
+
       github: String
       external: String
       ios: String
       android: String
+      cta: String
+
       cover: File @fileByRelativePath
+      tags: [String]
     }
   `);
 };
