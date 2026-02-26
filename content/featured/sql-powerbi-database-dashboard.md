@@ -1,7 +1,7 @@
 ---
 title: Relational Database & Business Dashboard (SQL + Power BI)
 cover: ./database.png
-tech: 
+tech:
   - SQL Server
   - Power BI
   - Data Modeling
