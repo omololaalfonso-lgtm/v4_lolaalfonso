@@ -1,7 +1,11 @@
 ---
 title: Relational Database & Business Dashboard (SQL + Power BI)
 cover: ./database.png
-tech: SQL Server, Power BI, Data Modeling, ETL
+tech: 
+  - SQL Server
+  - Power BI
+  - Data Modeling
+  - ETL
 external: ""
 github: ""
 ---
