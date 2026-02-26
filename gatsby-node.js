@@ -105,3 +105,18 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     },
   });
 };
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      title: String
+      tech: [String]
+      github: String
+      external: String
+      ios: String
+      android: String
+    }
+  `);
+};
