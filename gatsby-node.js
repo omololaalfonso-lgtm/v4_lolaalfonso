@@ -111,21 +111,30 @@ exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
 
   createTypes(`
-    type MarkdownRemarkFrontmatter {
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+
+    type Frontmatter @dontInfer {
       title: String
       slug: String
       date: Date @dateformat
       description: String
       tech: [String]
-
       github: String
       external: String
       ios: String
       android: String
       cta: String
-
-      cover: File @fileByRelativePath
       tags: [String]
+      cover: File @fileByRelativePath
+      image: File @fileByRelativePath
+      featured: Boolean
+      showInProjects: Boolean
+      range: String
+      company: String
+      location: String
+      url: String
     }
   `);
 };
