@@ -1,9 +1,13 @@
 ---
 title: Tata Data Visualisation Job Simulation
-tech: Data Visualization, Business Insights, Communication
+tech:
+  - Data Visualization
+  - Business Insights
+  - Communication
 external: https://www.theforage.com/
 ios: ""
 android: ""
+cta: ""
 ---
 
 Completed a business intelligence simulation focused on executive decision support.
