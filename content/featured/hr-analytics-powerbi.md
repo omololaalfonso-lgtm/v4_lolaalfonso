@@ -1,7 +1,8 @@
 ---
 title: HR Analytics — Employee Attrition & Performance Dashboard
 cover: ./hr.png
-tech: Power BI
+tech: 
+  - Power BI
   - Data Modeling
   - DAX
   - Business Intelligence
