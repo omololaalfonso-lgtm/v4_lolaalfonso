@@ -106,17 +106,21 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   });
 };
 
+// Fix optional frontmatter fields so Gatsby build doesn't fail
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
 
   createTypes(`
     type MarkdownRemarkFrontmatter {
       title: String
+      slug: String
+      date: Date @dateformat
       tech: [String]
       github: String
       external: String
       ios: String
       android: String
+      cover: File @fileByRelativePath
     }
   `);
 };
